@@ -100,7 +100,7 @@ public class RobotAutoDriveByTime_Linear extends LinearOpMode {
             rightFrontDrive.setPower(1.0);
             rightBackDrive.setPower(1.0);
 
-            telemetry.addData("Velocity1", leftFrontDrive.getCurrent(CurrentUnit.AMPS));
+            telemetry.addData("Motor Current", leftFrontDrive.getCurrent(CurrentUnit.AMPS));
             telemetry.update();
 
             sleep(5000);
