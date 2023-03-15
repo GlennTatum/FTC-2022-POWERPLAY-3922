@@ -100,6 +100,8 @@ public class RobotAutoDriveByTime_Linear extends LinearOpMode {
             rightFrontDrive.setPower(1.0);
             rightBackDrive.setPower(1.0);
 
+            // TODO: Ensure logging telemetry shows on FtcDriverStation
+
             telemetry.addData("Motor Current", leftFrontDrive.getCurrent(CurrentUnit.AMPS));
             telemetry.update();
 
